@@ -1,7 +1,7 @@
 import Exceptions as exceptions
 from Exceptions import EzSQLInvalidArgument
 import utils.SQLConnection as sql_connection
-import QueryResult as QueryResult
+import utils.QueryResult as QueryResult
 import mysql.connector as mysql
 
 class EzSQL:

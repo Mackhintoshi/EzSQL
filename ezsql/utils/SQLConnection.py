@@ -1,15 +1,15 @@
 
 import Exceptions as exceptions
-import QueryResult as QueryResult
+import utils.QueryResult as QueryResult
+import config
 import mysql.connector as mysql
 
 class SQLConnection:
     def __init__(self):
-        #TODO: put the db creds in a config file
-        self.host = "localhost"
-        self.user = "test_user"
-        self.password = "kj*76s6gkh!!fert"
-        self.db = "test_db"
+        self.host = config.dbhost
+        self.user = config.dbuser
+        self.password = config.dbpass
+        self.db = config.dbname
         self.connection = None
         self.cursor = None
 

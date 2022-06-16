@@ -12,6 +12,15 @@ This python package is based from python mysql connector. It allows you to easil
 		 - Get results in Tuple
 	- Supports DB Credentials from Environment Variables
 
+## Setting up your credentials
+
+To set your credentials, you can set the following in your environment variable. You may also put it in your .env file 
+
+    EZSQL_DBUSER=your_user
+    EZSQL_DBPASS=your_pass
+    EZSQL_DBHOST=your_host
+    EZSQL_DBNAME=your_db
+    
 
 ## Creating a query instance
 
