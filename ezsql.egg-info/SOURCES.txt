@@ -1,7 +1,6 @@
 LICENSE
 README.md
 setup.py
-ezsql/Exceptions.py
 ezsql/EzSQL.py
 ezsql/__init__.py
 ezsql/config.py
@@ -13,5 +12,7 @@ ezsql.egg-info/requires.txt
 ezsql.egg-info/top_level.txt
 ezsql/tests/__init__.py
 ezsql/tests/test_ezsql.py
+ezsql/utils/Exceptions.py
 ezsql/utils/QueryResult.py
 ezsql/utils/SQLConnection.py
+ezsql/utils/__init__.py

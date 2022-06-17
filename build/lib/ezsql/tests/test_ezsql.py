@@ -1,4 +1,4 @@
-from EzSQL import EzSQL
+from EzSQL import Query as EzSQL
 
 
 def run_tests():

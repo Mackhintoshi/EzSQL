@@ -1,10 +1,10 @@
-import Exceptions as exceptions
-from Exceptions import EzSQLInvalidArgument
-import utils.SQLConnection as sql_connection
-import utils.QueryResult as QueryResult
+from ezsql.utils import Exceptions as exceptions
+from ezsql.utils import SQLConnection as sql_connection
+from ezsql.utils import QueryResult as QueryResult
+
 import mysql.connector as mysql
 
-class EzSQL:
+class Query:
     #STATIC VARIABLES FOR CONFIGURATIONS
     MAXIMUM_ROWS_TO_RETURN = 100000
     MAXIMUM_SQL_COMMAND_RETRIES = 1

@@ -24,13 +24,15 @@ To set your credentials, you can set the following in your environment variable.
 
 ## Creating a query instance
 
+    from ezsql.EzSQL import Query
+
     #query_string is your prepared statement.
     query_string = "SELECT * FROM table_a WHERE id = %s"
     
     #query_values is a tuple of values
     query_values = (1,)
     
-    _ezsql = EzSQL(query_string,query_values)
+    _ezsql = Query(query_string,query_values)
     
 ## SELECT That returns tuple
 

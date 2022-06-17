@@ -1,7 +1,6 @@
-
-import Exceptions as exceptions
-import utils.QueryResult as QueryResult
-import config
+from ezsql.utils import QueryResult as QueryResult
+from ezsql.utils import Exceptions as exceptions
+import ezsql.config as config
 import mysql.connector as mysql
 
 class SQLConnection:
