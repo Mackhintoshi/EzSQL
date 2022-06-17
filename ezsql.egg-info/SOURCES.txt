@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+ezsql/Exceptions.py
+ezsql/EzSQL.py
+ezsql/__init__.py
+ezsql/config.py
+ezsql/test.py
+ezsql.egg-info/PKG-INFO
+ezsql.egg-info/SOURCES.txt
+ezsql.egg-info/dependency_links.txt
+ezsql.egg-info/requires.txt
+ezsql.egg-info/top_level.txt
+ezsql/tests/__init__.py
+ezsql/tests/test_ezsql.py
+ezsql/utils/QueryResult.py
+ezsql/utils/SQLConnection.py
