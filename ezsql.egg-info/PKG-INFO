@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: ezsql
-Version: 0.0.7
+Version: 0.0.1
 Summary: This python package is based from python mysql connector
 Home-page: https://github.com/Mackhintoshi/EzSQL
 Author: Jerick GUtierrez
@@ -36,7 +36,7 @@ To set your credentials, you can set the following in your environment variable.
 
 ## Creating a query instance
 
-    from ezsql.EzSQL import Query as Query
+    from ezsql.EzSQL import Query
 
     #query_string is your prepared statement.
     query_string = "SELECT * FROM table_a WHERE id = %s"

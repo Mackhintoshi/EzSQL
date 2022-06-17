@@ -17,14 +17,13 @@ except ImportError:
 
 from ezsql import __version__ as VERSION
 
-setup(name='ezsql',
+setup(name='python-ezsql',
       description='This python package is based from python mysql connector',
       long_description_content_type=long_description_content_type,
       long_description=long_description,
       version=VERSION,
       url='https://github.com/Mackhintoshi/EzSQL',
       author='Jerick GUtierrez',
-      license='Apache2',
       classifiers=[
           'License :: OSI Approved :: MIT License',
           'Programming Language :: Python :: 3'
