@@ -5,10 +5,11 @@ import mysql.connector as mysql
 
 class SQLConnection:
     def __init__(self):
-        self.host = config.dbhost
-        self.user = config.dbuser
-        self.password = config.dbpass
-        self.db = config.dbname
+        self.db_config = config.Config()
+        self.host = self.db_config.get_dbhost()
+        self.user = self.db_config.get_dbuser()
+        self.password = self.db_config.get_dbpass()
+        self.db = self.db_config.get_dbname()
         self.connection = None
         self.cursor = None
 

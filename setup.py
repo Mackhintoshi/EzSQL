@@ -29,7 +29,7 @@ setup(name='python-ezsql',
           'Programming Language :: Python :: 3'
       ],
       #packages=setuptools.find_packages(where="ezsql"),
-      packages=["ezsql","ezsql/utils","ezsql/tests"],
+      packages=["ezsql","ezsql/utils"],
       install_requires=[
           'mysql-connector-python',
       ]

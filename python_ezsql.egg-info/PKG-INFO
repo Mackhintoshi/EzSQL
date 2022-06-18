@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: python-ezsql
-Version: 0.0.1
+Version: 0.0.2
 Summary: This python package is based from python mysql connector
 Home-page: https://github.com/Mackhintoshi/EzSQL
 Author: Jerick GUtierrez
@@ -22,6 +22,10 @@ This python package is based from python mysql connector. It allows you to easil
 		 - Get a List formatted result
 		 - Get results in Tuple
 	- Supports DB Credentials from Environment Variables
+    
+## Installation
+
+    pip install python-ezsql
 
 ## Setting up your credentials
 

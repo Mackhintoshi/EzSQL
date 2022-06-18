@@ -4,9 +4,6 @@ setup.py
 ezsql/EzSQL.py
 ezsql/__init__.py
 ezsql/config.py
-ezsql/test.py
-ezsql/tests/__init__.py
-ezsql/tests/test_ezsql.py
 ezsql/utils/Exceptions.py
 ezsql/utils/QueryResult.py
 ezsql/utils/SQLConnection.py

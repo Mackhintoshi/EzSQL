@@ -1,3 +1,2 @@
 ezsql
-ezsql/tests
 ezsql/utils

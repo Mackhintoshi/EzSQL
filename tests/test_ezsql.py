@@ -1,5 +1,4 @@
-from EzSQL import Query as EzSQL
-
+from ezsql.EzSQL import Query as EzSQL
 
 def run_tests():
     print("Running ezsql test.")
