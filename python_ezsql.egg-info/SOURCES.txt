@@ -4,10 +4,12 @@ setup.py
 ezsql/EzSQL.py
 ezsql/__init__.py
 ezsql/config.py
-ezsql/utils/Exceptions.py
-ezsql/utils/QueryResult.py
-ezsql/utils/SQLConnection.py
-ezsql/utils/__init__.py
+ezsql/lib/Exceptions.py
+ezsql/lib/QueryResult.py
+ezsql/lib/SQLConnection.py
+ezsql/lib/__init__.py
+ezsql/tests/__init__.py
+ezsql/tests/test_ezsql.py
 python_ezsql.egg-info/PKG-INFO
 python_ezsql.egg-info/SOURCES.txt
 python_ezsql.egg-info/dependency_links.txt
