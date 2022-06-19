@@ -62,7 +62,7 @@ def test_run_select(_ezsql):
         print("FAILED:  Unable to run select: Exception: {0}".format(e))
         return False
 def test_run_select_with_json(_ezsql):
-    print("PENDING: esting run_select_with_json()")
+    print("PENDING: Testing run_select_with_json()")
     try:
         result = _ezsql.run_select_with_json()
         print("SUCCESS: Successfully retrieved result for select with JSON")

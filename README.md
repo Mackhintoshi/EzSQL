@@ -131,7 +131,7 @@ Test Output
     SUCCESS: Result: [(47, 'John', 30)]
     PENDING: Testing run_update()
     SUCCESS: Successfully updated data.
-    PENDING: esting run_select_with_json()
+    PENDING: Testing run_select_with_json()
     SUCCESS: Successfully retrieved result for select with JSON
     Result: [{'id': 47, 'name': 'John', 'age': 31}]
     PENDING: Testing run_select_with_list()
