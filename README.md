@@ -114,3 +114,28 @@ When the table is ready, you can use the run_test() function
 
     from ezsql.tests import test_ezsql
     test_ezsql.run_tests()
+
+Test Output
+
+    Running ezsql test.
+    PENDING: Testing set_query_string()
+    SUCCESS: Query string set.
+    Testing set_query_values()
+    SUCCESS: Query values set.
+    PENDING: Testing db_connection()
+    SUCCESS: Connection successful.
+    PENDING: Testing run_insert()
+    SUCCESS: Successfully inserted data.
+    PENDING: Testing run_select()
+    SUCCESS: Successfully retrieved result for select
+    SUCCESS: Result: [(47, 'John', 30)]
+    PENDING: Testing run_update()
+    SUCCESS: Successfully updated data.
+    PENDING: esting run_select_with_json()
+    SUCCESS: Successfully retrieved result for select with JSON
+    Result: [{'id': 47, 'name': 'John', 'age': 31}]
+    PENDING: Testing run_select_with_list()
+    SUCCESS: Successfully retrieved result for select with list
+    SUCCESS: Result: [[47, 'John', 31]]
+    PENDING: Testing run_delete()
+    SUCCESS: Successfully deleted data.

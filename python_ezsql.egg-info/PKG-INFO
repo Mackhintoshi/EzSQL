@@ -110,3 +110,18 @@ outputs
 
     True
     
+
+## Running a test
+To run a test, create a table like this.
+
+    CREATE TABLE `data` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `name` varchar(45) DEFAULT NULL,
+    `age` int DEFAULT NULL,
+    PRIMARY KEY (`id`)
+    ) ENGINE=InnoDB AUTO_INCREMENT=45 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+When the table is ready, you can use the run_test() function
+
+    from ezsql.tests import test_ezsql
+    test_ezsql.run_tests()

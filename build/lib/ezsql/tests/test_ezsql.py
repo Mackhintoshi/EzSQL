@@ -10,8 +10,8 @@ def run_tests():
     test_run_select(_ezsql)
     test_run_update()
     test_run_select_with_json(_ezsql)
-    test_run_delete()
     test_run_select_with_list(_ezsql)
+    test_run_delete()
     
     
 
