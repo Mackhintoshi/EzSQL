@@ -1,11 +1,11 @@
-from ezsql.utils import QueryResult as QueryResult
-from ezsql.utils import Exceptions as exceptions
+from ezsql.lib import QueryResult as QueryResult
+from ezsql.lib import Exceptions as exceptions
 import ezsql.config as config
 import mysql.connector as mysql
 
 class SQLConnection:
     def __init__(self):
-        self.db_config = config.Config()
+        self.db_config = config.DBConfig()
         self.host = self.db_config.get_dbhost()
         self.user = self.db_config.get_dbuser()
         self.password = self.db_config.get_dbpass()

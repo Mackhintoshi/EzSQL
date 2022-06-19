@@ -1,5 +1,5 @@
-from ezsql.utils import QueryResult as QueryResult
-from ezsql.utils import Exceptions as exceptions
+from ezsql.lib import QueryResult as QueryResult
+from ezsql.lib import Exceptions as exceptions
 import ezsql.config as config
 import mysql.connector as mysql
 

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: python-ezsql
-Version: 0.0.2
+Version: 0.0.3
 Summary: This python package is based from python mysql connector
 Home-page: https://github.com/Mackhintoshi/EzSQL
 Author: Jerick GUtierrez
