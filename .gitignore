@@ -1,3 +1,4 @@
 pipfile
 pipfile.lock
 .env
+.DS_Store
